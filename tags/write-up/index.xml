@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>write-up on Hexomedine</title>
+    <link>https://hexomedin3.github.io/tags/write-up/</link>
+    <description>Recent content in write-up on Hexomedine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Hexomedine</copyright>
+    <lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hexomedin3.github.io/tags/write-up/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Root-Me 10k CTF] Web - CVE Finder Engine</title>
+      <link>https://hexomedin3.github.io/posts/root-me-10k_cve-finder-engine/</link>
+      <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hexomedin3.github.io/posts/root-me-10k_cve-finder-engine/</guid>
+      <description>The challenge In this challenge, we were tasked to retrieve the admin&amp;rsquo;s credentials. This was done by exploiting a CQL injection. Here&amp;rsquo;s the description :
+Write-Up Intro This is a basic application in which it is possible to look for some CVEs.
+Going through Burp, we can notice that two POST parameter are sent : query, which is the parameter we search for, and fields. The &amp;ldquo;fields&amp;rdquo; parameters are in fact the fields of the database the finder engine will return to us.</description>
+    </item>
+    
+  </channel>
+</rss>

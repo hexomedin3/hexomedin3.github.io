@@ -25,7 +25,7 @@ Going through Burp, we can notice that two POST parameter are sent : query, whic
       <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hexomedin3.github.io/whoami/</guid>
-      <description>I am a CS student passionate about cybersecurity with a preference towards offensive security. Here you will find some of my writeups and a few notes I write across my cybersecurity journey !
+      <description>I am a CS student and a cybersecurity enthusiast with a preference towards offensive security. Here you will find some of my writeups and a few notes I write across my cybersecurity journey !
 If you wish to contact me, here are some of the social networks I use the most :
 Linkedin Discord : Hexo#5541 </description>
     </item>

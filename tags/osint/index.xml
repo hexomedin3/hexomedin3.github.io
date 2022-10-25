@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OSINT on Hexomedine</title>
+    <link>https://hexomedin3.github.io/tags/osint/</link>
+    <description>Recent content in OSINT on Hexomedine</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Hexomedine</copyright>
+    <lastBuildDate>Tue, 25 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hexomedin3.github.io/tags/osint/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Root-Me 10k CTF] OSINT - Find Our Roots</title>
+      <link>https://hexomedin3.github.io/posts/root-me-10k_find-our-roots/</link>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hexomedin3.github.io/posts/root-me-10k_find-our-roots/</guid>
+      <description>The CTF The Root-Me 10k CTF was organized to celebrate the 10k members on the discord of Root-Me. It was a fun CTF with interesting challenges. The categories were : OSINT, Misc, Web, Forensic, Pwn, Reverse, Programming, Intro and Crypto. I managed to get to the 18th place.
+The challenge The OSINT challenge was to find the name and the call sign of the boat on the picture below.
+Here&amp;rsquo;s the description of the challenge :</description>
+    </item>
+    
+  </channel>
+</rss>

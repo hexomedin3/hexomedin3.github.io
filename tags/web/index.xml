@@ -14,9 +14,8 @@
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hexomedin3.github.io/posts/root-me-10k_cve-finder-engine/</guid>
-      <description>The challenge In this challenge, we were tasked to retrieve the admin&amp;rsquo;s credentials. This was done by exploiting a CQL injection. Here&amp;rsquo;s the description :
-Write-Up Intro This is a basic application in which it is possible to look for some CVEs.
-Going through Burp, we can notice that two POST parameter are sent : query, which is the parameter we search for, and fields. The &amp;ldquo;fields&amp;rdquo; parameters are in fact the fields of the database the finder engine will return to us.</description>
+      <description>The CTF The Root-Me 10k CTF was organized to celebrate the 10k members on the discord of Root-Me. It was a fun CTF with interesting challenges. The categories were : OSINT, Misc, Web, Forensic, Pwn, Reverse, Programming, Intro and Crypto. I managed to get to the 18th place.
+The challenge In this challenge, we were tasked to retrieve the admin&amp;rsquo;s credentials. This was done by exploiting a CQL injection. Here&amp;rsquo;s the description :</description>
     </item>
     
   </channel>

@@ -14,9 +14,19 @@
       <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hexomedin3.github.io/posts/root-me-10k_white-rabbit/</guid>
-      <description>The challenge In this challenge, we had to exploit a discord bot. In fact, there was an OS command injection in the bot. Here&amp;rsquo;s the description :
-Write-Up The purpose of the bot is to check if a root-me challenge domain is up. So we can DM the bot and see what&amp;rsquo;s what. The normal behavior of the bot is represented below.
-As I done this type of challenges before, this challenge screams &amp;ldquo;OS command injection&amp;rdquo; to me.</description>
+      <description>The CTF The Root-Me 10k CTF was organized to celebrate the 10k members on the discord of Root-Me. It was a fun CTF with interesting challenges. The categories were : OSINT, Misc, Web, Forensic, Pwn, Reverse, Programming, Intro and Crypto. I managed to get to the 18th place.
+The challenge In this challenge, we had to exploit a discord bot. In fact, there was an OS command injection in the bot.</description>
+    </item>
+    
+    <item>
+      <title>[Root-Me 10k CTF] OSINT - Find Our Roots</title>
+      <link>https://hexomedin3.github.io/posts/root-me-10k_find-our-roots/</link>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hexomedin3.github.io/posts/root-me-10k_find-our-roots/</guid>
+      <description>The CTF The Root-Me 10k CTF was organized to celebrate the 10k members on the discord of Root-Me. It was a fun CTF with interesting challenges. The categories were : OSINT, Misc, Web, Forensic, Pwn, Reverse, Programming, Intro and Crypto. I managed to get to the 18th place.
+The challenge The OSINT challenge was to find the name and the call sign of the boat on the picture below.
+Here&amp;rsquo;s the description of the challenge :</description>
     </item>
     
     <item>
@@ -25,9 +35,8 @@ As I done this type of challenges before, this challenge screams &amp;ldquo;OS c
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hexomedin3.github.io/posts/root-me-10k_cve-finder-engine/</guid>
-      <description>The challenge In this challenge, we were tasked to retrieve the admin&amp;rsquo;s credentials. This was done by exploiting a CQL injection. Here&amp;rsquo;s the description :
-Write-Up Intro This is a basic application in which it is possible to look for some CVEs.
-Going through Burp, we can notice that two POST parameter are sent : query, which is the parameter we search for, and fields. The &amp;ldquo;fields&amp;rdquo; parameters are in fact the fields of the database the finder engine will return to us.</description>
+      <description>The CTF The Root-Me 10k CTF was organized to celebrate the 10k members on the discord of Root-Me. It was a fun CTF with interesting challenges. The categories were : OSINT, Misc, Web, Forensic, Pwn, Reverse, Programming, Intro and Crypto. I managed to get to the 18th place.
+The challenge In this challenge, we were tasked to retrieve the admin&amp;rsquo;s credentials. This was done by exploiting a CQL injection. Here&amp;rsquo;s the description :</description>
     </item>
     
   </channel>

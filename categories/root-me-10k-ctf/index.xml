@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Hexomedine</copyright>
-    <lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hexomedin3.github.io/categories/root-me-10k-ctf/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hexomedin3.github.io/categories/root-me-10k-ctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Root-Me 10k CTF] Misc - White Rabbit</title>
+      <link>https://hexomedin3.github.io/posts/root-me-10k_white-rabbit/</link>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://hexomedin3.github.io/posts/root-me-10k_white-rabbit/</guid>
+      <description>The challenge In this challenge, we had to exploit a discord bot. In fact, there was an OS command injection in the bot. Here&amp;rsquo;s the description :
+Write-Up The purpose of the bot is to check if a root-me challenge domain is up. So we can DM the bot and see what&amp;rsquo;s what. The normal behavior of the bot is represented below.
+As I done this type of challenges before, this challenge screams &amp;ldquo;OS command injection&amp;rdquo; to me.</description>
+    </item>
+    
     <item>
       <title>[Root-Me 10k CTF] Web - CVE Finder Engine</title>
       <link>https://hexomedin3.github.io/posts/root-me-10k_cve-finder-engine/</link>

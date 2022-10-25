@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>[Root-Me 10k CTF] Misc - White Rabbit - Hexomedine</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="The challenge In this challenge, we had to exploit a discord bot. In fact, there was an OS command injection in the bot. Here&rsquo;s the description :
+Write-Up The purpose of the bot is to check if a root-me challenge domain is up. So we can DM the bot and see what&rsquo;s what. The normal behavior of the bot is represented below.
+As I done this type of challenges before, this challenge screams &ldquo;OS command injection&rdquo; to me." />
+	<meta property="og:image" content=""/>
+	<meta property="og:title" content="[Root-Me 10k CTF] Misc - White Rabbit" />
+<meta property="og:description" content="The challenge In this challenge, we had to exploit a discord bot. In fact, there was an OS command injection in the bot. Here&rsquo;s the description :
+Write-Up The purpose of the bot is to check if a root-me challenge domain is up. So we can DM the bot and see what&rsquo;s what. The normal behavior of the bot is represented below.
+As I done this type of challenges before, this challenge screams &ldquo;OS command injection&rdquo; to me." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://hexomedin3.github.io/posts/root-me-10k_white-rabbit/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-10-25T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-10-25T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="[Root-Me 10k CTF] Misc - White Rabbit"/>
+<meta name="twitter:description" content="The challenge In this challenge, we had to exploit a discord bot. In fact, there was an OS command injection in the bot. Here&rsquo;s the description :
+Write-Up The purpose of the bot is to check if a root-me challenge domain is up. So we can DM the bot and see what&rsquo;s what. The normal behavior of the bot is represented below.
+As I done this type of challenges before, this challenge screams &ldquo;OS command injection&rdquo; to me."/>
+
+	
+        <link href="https://hexomedin3.github.io/css/fonts.b685ac6f654695232de7b82a9143a46f9e049c8e3af3a21d9737b01f4be211d1.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://hexomedin3.github.io/css/main.aa24ba715b87c58e8d7b0e7768b1824904c88e1b120c21f84c282c2d7c9069d0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://hexomedin3.github.io/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css"   />
+	
+	
+	
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://hexomedin3.github.io/">Hexomedine</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts">Posts</a>
+		
+		<a href="/categories">Categories</a>
+		
+		<a href="/tags">Tags</a>
+		
+		<a href="/whoami">Whoami</a>
+		
+		
+	</nav>
+</header>
+
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">[Root-Me 10k CTF] Misc - White Rabbit</h1>
+			<div class="meta">Posted on Oct 25, 2022</div>
+		</div>
+
+		
+		<div class="categories meta">
+			[Root-Me 10k CTF]
+		</div>
+
+		
+
+		<section class="body">
+			<h1 id="the-challenge">The challenge</h1>
+<p>In this challenge, we had to exploit a discord bot. In fact, there was an OS command injection in the bot. Here&rsquo;s the description :</p>
+<p><img src="/img/chall_white-rabbit.png" alt="Challenge Description"></p>
+<h1 id="write-up">Write-Up</h1>
+<p>The purpose of the bot is to check if a root-me challenge domain is up. So we can DM the bot and see what&rsquo;s what. The normal behavior of the bot is represented below.</p>
+<p><img src="/img/normal_white-rabbit.png" alt="Normal usage of the bot"></p>
+<p>As I done this type of challenges before, this challenge screams &ldquo;OS command injection&rdquo; to me. Since the input is in the middle of the pinged domain, I tried this :</p>
+<p><code>!ping test;ls;</code></p>
+<p>And we got a response :</p>
+<p><img src="/img/ls_white-rabbit.png" alt="Attempt to use the ls command"></p>
+<p>The &ldquo;;&rdquo; allow us to use several commands in one line whether they fail or not. So the bot is processing the commands like this :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>$ ping challengetest        //no response, this is normal
+</span></span><span style="display:flex;"><span>$ ls                        //our malicious command
+</span></span><span style="display:flex;"><span>$ root-me.org               //error, no command found
+</span></span></code></pre></div><p>So we now just have to cat the flag.txt. To do so, we&rsquo;re also using the ${IFS} trick to have no space in our input (<a href="https://en.wikipedia.org/wiki/Input_Field_Separators">More on IFS</a>). This is only one of the many other possibilities to solve this challenge.</p>
+<p><img src="/img/flag_white-rabbit.png" alt="The Flag"></p>
+<p>And we have it ! The flag : <code>RM{D1sc0rD_t0_c0mm4nd_1nj3cTi0n}</code>.</p>
+
+		</section>
+
+		<div class="post-tags">
+			
+			
+			<nav class="nav tags">
+				<ul class="tags">
+					
+					<li><a href="/tags/ctf">CTF</a></li>
+					
+					<li><a href="/tags/write-up">write-up</a></li>
+					
+					<li><a href="/tags/misc">misc</a></li>
+					
+				</ul>
+			</nav>
+			
+			
+		</div>
+	</article>
+</main>
+<footer>
+  <div style="display:flex"></div>
+  <div class="footer-info">
+    2022  © Hexomedine 
+  </div>
+</footer>
+
+
+</div>
+    </body>
+</html>

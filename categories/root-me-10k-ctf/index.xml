@@ -14,8 +14,9 @@
       <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hexomedin3.github.io/posts/root-me-10k_white-rabbit/</guid>
-      <description>The CTF The Root-Me 10k CTF was organized to celebrate the 10k members on the discord of Root-Me. It was a fun CTF with interesting challenges. The categories were : OSINT, Misc, Web, Forensic, Pwn, Reverse, Programming, Intro and Crypto. I managed to get to the 18th place.
-The challenge In this challenge, we had to exploit a discord bot. In fact, there was an OS command injection in the bot.</description>
+      <description>The challenge In this challenge, we had to exploit a discord bot. In fact, there was an OS command injection in the bot. Here&amp;rsquo;s the description :
+Write-Up The purpose of the bot is to check if a root-me challenge domain is up. So we can DM the bot and see what&amp;rsquo;s what. The normal behavior of the bot is represented below.
+As I&amp;rsquo;ve done this type of challenges before, this challenge screams &amp;ldquo;OS command injection&amp;rdquo; to me.</description>
     </item>
     
     <item>
@@ -24,9 +25,11 @@ The challenge In this challenge, we had to exploit a discord bot. In fact, there
       <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hexomedin3.github.io/posts/root-me-10k_find-our-roots/</guid>
-      <description>The CTF The Root-Me 10k CTF was organized to celebrate the 10k members on the discord of Root-Me. It was a fun CTF with interesting challenges. The categories were : OSINT, Misc, Web, Forensic, Pwn, Reverse, Programming, Intro and Crypto. I managed to get to the 18th place.
-The challenge The OSINT challenge was to find the name and the call sign of the boat on the picture below.
-Here&amp;rsquo;s the description of the challenge :</description>
+      <description>The challenge The OSINT challenge was to find the name and the call sign of the boat on the picture below.
+Here&amp;rsquo;s the description of the challenge :
+Write-Up exif data ? So the first thing I&amp;rsquo;ve done is to check the image with exiftool to see if there&amp;rsquo;s nothing helpful.
+We can see that the picture has a creator, &amp;ldquo;Rene Te Pas&amp;rdquo; and a creation date.
+On to google I reverse search the image on google and yandex but I found nothing that useful.</description>
     </item>
     
     <item>
@@ -35,8 +38,9 @@ Here&amp;rsquo;s the description of the challenge :</description>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hexomedin3.github.io/posts/root-me-10k_cve-finder-engine/</guid>
-      <description>The CTF The Root-Me 10k CTF was organized to celebrate the 10k members on the discord of Root-Me. It was a fun CTF with interesting challenges. The categories were : OSINT, Misc, Web, Forensic, Pwn, Reverse, Programming, Intro and Crypto. I managed to get to the 18th place.
-The challenge In this challenge, we were tasked to retrieve the admin&amp;rsquo;s credentials. This was done by exploiting a CQL injection. Here&amp;rsquo;s the description :</description>
+      <description>The challenge In this challenge, we were tasked to retrieve the admin&amp;rsquo;s credentials. This was done by exploiting a CQL injection. Here&amp;rsquo;s the description :
+Write-Up Intro This is a basic application in which it is possible to look for some CVEs.
+Going through Burp, we can notice that two POST parameter are sent : query, which is the parameter we search for, and fields. The &amp;ldquo;fields&amp;rdquo; parameters are in fact the fields of the database the finder engine will return to us.</description>
     </item>
     
   </channel>

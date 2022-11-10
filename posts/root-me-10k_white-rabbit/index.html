@@ -2,12 +2,14 @@
 <html><head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>[Root-Me 10k CTF] Misc - White Rabbit - Hexomedine</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="The CTF The Root-Me 10k CTF was organized to celebrate the 10k members on the discord of Root-Me. It was a fun CTF with interesting challenges. The categories were : OSINT, Misc, Web, Forensic, Pwn, Reverse, Programming, Intro and Crypto. I managed to get to the 18th place.
-The challenge In this challenge, we had to exploit a discord bot. In fact, there was an OS command injection in the bot." />
+	<meta name="description" content="The challenge In this challenge, we had to exploit a discord bot. In fact, there was an OS command injection in the bot. Here&rsquo;s the description :
+Write-Up The purpose of the bot is to check if a root-me challenge domain is up. So we can DM the bot and see what&rsquo;s what. The normal behavior of the bot is represented below.
+As I&rsquo;ve done this type of challenges before, this challenge screams &ldquo;OS command injection&rdquo; to me." />
 	<meta property="og:image" content=""/>
 	<meta property="og:title" content="[Root-Me 10k CTF] Misc - White Rabbit" />
-<meta property="og:description" content="The CTF The Root-Me 10k CTF was organized to celebrate the 10k members on the discord of Root-Me. It was a fun CTF with interesting challenges. The categories were : OSINT, Misc, Web, Forensic, Pwn, Reverse, Programming, Intro and Crypto. I managed to get to the 18th place.
-The challenge In this challenge, we had to exploit a discord bot. In fact, there was an OS command injection in the bot." />
+<meta property="og:description" content="The challenge In this challenge, we had to exploit a discord bot. In fact, there was an OS command injection in the bot. Here&rsquo;s the description :
+Write-Up The purpose of the bot is to check if a root-me challenge domain is up. So we can DM the bot and see what&rsquo;s what. The normal behavior of the bot is represented below.
+As I&rsquo;ve done this type of challenges before, this challenge screams &ldquo;OS command injection&rdquo; to me." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://hexomedin3.github.io/posts/root-me-10k_white-rabbit/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-10-25T00:00:00+00:00" />
@@ -15,8 +17,9 @@ The challenge In this challenge, we had to exploit a discord bot. In fact, there
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="[Root-Me 10k CTF] Misc - White Rabbit"/>
-<meta name="twitter:description" content="The CTF The Root-Me 10k CTF was organized to celebrate the 10k members on the discord of Root-Me. It was a fun CTF with interesting challenges. The categories were : OSINT, Misc, Web, Forensic, Pwn, Reverse, Programming, Intro and Crypto. I managed to get to the 18th place.
-The challenge In this challenge, we had to exploit a discord bot. In fact, there was an OS command injection in the bot."/>
+<meta name="twitter:description" content="The challenge In this challenge, we had to exploit a discord bot. In fact, there was an OS command injection in the bot. Here&rsquo;s the description :
+Write-Up The purpose of the bot is to check if a root-me challenge domain is up. So we can DM the bot and see what&rsquo;s what. The normal behavior of the bot is represented below.
+As I&rsquo;ve done this type of challenges before, this challenge screams &ldquo;OS command injection&rdquo; to me."/>
 
 	
         <link href="https://hexomedin3.github.io/css/fonts.b685ac6f654695232de7b82a9143a46f9e049c8e3af3a21d9737b01f4be211d1.css" rel="stylesheet">
@@ -65,9 +68,7 @@ The challenge In this challenge, we had to exploit a discord bot. In fact, there
 		
 
 		<section class="body">
-			<h1 id="the-ctf">The CTF</h1>
-<p>The Root-Me 10k CTF was organized to celebrate the 10k members on the discord of Root-Me. It was a fun CTF with interesting challenges. The categories were : OSINT, Misc, Web, Forensic, Pwn, Reverse, Programming, Intro and Crypto. I managed to get to the 18th place.</p>
-<h1 id="the-challenge">The challenge</h1>
+			<h1 id="the-challenge">The challenge</h1>
 <p>In this challenge, we had to exploit a discord bot. In fact, there was an OS command injection in the bot. Here&rsquo;s the description :</p>
 <p><img src="/img/chall_white-rabbit.png" alt="Challenge Description"></p>
 <h1 id="write-up">Write-Up</h1>
@@ -84,6 +85,8 @@ The challenge In this challenge, we had to exploit a discord bot. In fact, there
 </span></span></code></pre></div><p>So we now just have to cat the flag.txt. To do so, we&rsquo;re also using the ${IFS} trick to have no space in our input (<a href="https://en.wikipedia.org/wiki/Input_Field_Separators">More on IFS</a>). This is only one of the many other possibilities to solve this challenge.</p>
 <p><img src="/img/flag_white-rabbit.png" alt="The Flag"></p>
 <p>And we have it ! The flag : <code>RM{D1sc0rD_t0_c0mm4nd_1nj3cTi0n}</code>.</p>
+<h1 id="the-ctf">The CTF</h1>
+<p>The Root-Me 10k CTF was organized to celebrate the 10k members on the discord of Root-Me. It was a fun CTF with interesting challenges. The categories were : OSINT, Misc, Web, Forensic, Pwn, Reverse, Programming, Intro and Crypto. I managed to get to the 18th place.</p>
 
 		</section>
 

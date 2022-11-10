@@ -14,8 +14,9 @@
       <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://hexomedin3.github.io/posts/root-me-10k_white-rabbit/</guid>
-      <description>The CTF The Root-Me 10k CTF was organized to celebrate the 10k members on the discord of Root-Me. It was a fun CTF with interesting challenges. The categories were : OSINT, Misc, Web, Forensic, Pwn, Reverse, Programming, Intro and Crypto. I managed to get to the 18th place.
-The challenge In this challenge, we had to exploit a discord bot. In fact, there was an OS command injection in the bot.</description>
+      <description>The challenge In this challenge, we had to exploit a discord bot. In fact, there was an OS command injection in the bot. Here&amp;rsquo;s the description :
+Write-Up The purpose of the bot is to check if a root-me challenge domain is up. So we can DM the bot and see what&amp;rsquo;s what. The normal behavior of the bot is represented below.
+As I&amp;rsquo;ve done this type of challenges before, this challenge screams &amp;ldquo;OS command injection&amp;rdquo; to me.</description>
     </item>
     
   </channel>

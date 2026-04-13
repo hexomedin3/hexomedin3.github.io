@@ -42,6 +42,20 @@ title = "Hexomedin3's blog"
     pre = "<span data-feather='github'></span>"
     post = ""
 
+  [[menu.main]]
+    # Unique identifiers are required for menu entries without a name property,
+    # or for menu entries which re-use a name
+    identifier = "linkedin"
+
+    # Absolute URL to external resource
+    url = "https://www.linkedin.com/in/louis-baes/"
+    weight = 5
+    
+    # Surround the menu entry (or name) with HTML content, such as Feather
+    # icons: https://feathericons.com
+    pre = "<span data-feather='linkedin'></span>"
+    post = ""
+
 [params]
   accentColor = "#f6af46"
   description = "Tinkering, hacking, and other infosec/embedded stuff"

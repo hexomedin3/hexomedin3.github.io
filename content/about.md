@@ -3,7 +3,7 @@ title = 'About'
 date = 2026-04-13
 +++
 
-Welcome on my website :)
+Welcome to my website :)
 
 Here you will find some articles about infosec, embedded stuff and other ideas, reflexions or field notes.
 Feel free to reach out to discuss anything on :

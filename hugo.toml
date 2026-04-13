@@ -1,0 +1,51 @@
+baseURL = "https://hexomedin3.com/"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+languageCode = "en"
+theme = "gokarna"
+title = "Hexomedin3's blog"
+
+[menu]
+  [[menu.main]]
+    # Display name
+    name = "Posts"
+
+    # Relative URL slug (appended to baseURL)
+    url = "/posts/"
+
+    # Lower weights are listed first in the menu (leftmost); higher weights are
+    # listed last in the menu (rightmost)
+    weight = 1
+
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight=3
+    
+  [[menu.main]]
+    # Unique identifiers are required for menu entries without a name property,
+    # or for menu entries which re-use a name
+    identifier = "github"
+
+    # Absolute URL to external resource
+    url = "https://github.com/hexomedin3/"
+    weight = 4
+    
+    # Surround the menu entry (or name) with HTML content, such as Feather
+    # icons: https://feathericons.com
+    pre = "<span data-feather='github'></span>"
+    post = ""
+
+[params]
+  accentColor = "#f6af46"
+  description = "Tinkering, hacking, and other infosec/embedded stuff"
+  showPostsOnHomePage = "recent"
+  numberPostsOnHomePage = 6
+  footer = "Hexomedin3's blog"
+  avatarURL = "/images/avatar.png"

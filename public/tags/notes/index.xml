@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on Hexomedin3&#39;s blog</title>
+    <link>http://localhost:1313/tags/notes/</link>
+    <description>Recent content in Notes on Hexomedin3&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Open-source development environment setup for learning embedded programming</title>
+      <link>http://localhost:1313/posts/opensource_setup_for_embedded/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/opensource_setup_for_embedded/</guid>
+      <description>Motivation Recently I got interested into embedded programming and I decided to follow a course. The course (course link) is a great introduction about embedded programming using the Tiva™ C Series dev board.&#xA;The instructor in the videos uses IAR as the IDE but also offers Keil as an alternative. He also recommends to use Windows to follow this course. After some episodes of this interesting course, I decided that I would give a try to break free from Keil&amp;rsquo;s ecosystem and try to get an open-source alternative on Linux (Debian).</description>
+    </item>
+  </channel>
+</rss>

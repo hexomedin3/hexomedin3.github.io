@@ -1,0 +1,10 @@
+{{ define "main"}}
+
+<div class="text-404">
+  <h1>Not found</h1>
+  <h2>
+      {{ i18n "error404" . }} <a href="{{ .Site.BaseURL }}">{{ i18n "home" }}</a>
+  </h2>
+</div>
+
+{{ end }}

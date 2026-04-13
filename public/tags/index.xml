@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Hexomedin3&#39;s blog</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Hexomedin3&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dev</title>
+      <link>http://localhost:1313/tags/dev/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/dev/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Embedded</title>
+      <link>http://localhost:1313/tags/embedded/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/embedded/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Notes</title>
+      <link>http://localhost:1313/tags/notes/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/notes/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

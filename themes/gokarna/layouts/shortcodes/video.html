@@ -1,0 +1,10 @@
+<video 
+    width="{{ default "100%" (.Get "width") }}" 
+    autoplay 
+    loop 
+    muted 
+    playsinline 
+    preload="metadata">
+    <source src="{{ .Get "src" }}" type="video/webm">
+    Your browser does not support the video tag.
+</video>

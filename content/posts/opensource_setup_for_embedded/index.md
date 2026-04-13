@@ -1,6 +1,7 @@
 ---
 date: 2026-04-13
 showTableOfContents: true
+image: "EK_TM4C123GXL.jpg"
 tags: ["embedded","notes","dev"]
 title: "Open-source development environment setup for learning embedded programming"
 type: "post"
